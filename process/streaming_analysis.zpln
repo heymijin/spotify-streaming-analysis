@@ -1,0 +1,2157 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark.pyspark\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687746921651_357302456",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nspark.version\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687578809635_842718931",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nsc",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687578819297_873017389",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nsc.version",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687578821467_639017664",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\nfrom pyspark.sql import SparkSession\nfrom pyspark.sql.functions import explode, col, expr\nfrom pyspark.sql.types import StructType",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687586942531_674883671",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# show streaming history 0,1 data type\n\n# Sparksession\nspark = SparkSession.builder.getOrCreate()\n\nPATH0=\"/user/portfolio/spotify/src/json/StreamingHistory0.json\"\nPATH1=\"/user/portfolio/spotify/src/json/StreamingHistory1.json\"\n\ndf0 = spark.read.option(\"multiline\",\"true\").json(PATH0) # !!!!!!!!!!\ndf0.createOrReplaceTempView(\"df_streaming0\")\ndf0.printSchema()\n\ndf1 = spark.read.option(\"multiline\", \"true\").json(PATH1) # !!!!!!!!\ndf1.createOrReplaceTempView(\"df_streaming1\")\ndf1.printSchema()\n\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687590235152_1917861144",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 1)merge streaming dataframes\nspark.sql(\"SELECT * FROM df_streaming0 UNION SELECT * FROM df_streaming1\").createOrReplaceTempView(\"df_stream\")\nprint(\"done\")",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "trackName": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687590822105_178943194",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n-- see how many columns in the table\nSELECT COUNT(*) FROM df_stream",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(1)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687591421714_309072559",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n-- create UniqueID column (key)\nSELECT *, CONCAT(artistName, ':', trackName) AS UniqueID \nFROM df_stream\nLIMIT 10;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687591545192_323087521",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 2) Creating table included UniqueID\nspark.sql(\"SELECT *, CONCAT(artistName, ':', trackName) AS UniqueID FROM df_stream\").createOrReplaceTempView(\"df_stream_unique\")\nprint(\"done\")",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687591786175_706922059",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT * FROM df_stream_unique limit 10;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687591941863_1986528634",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n-- 3) add mnPlayed(minute) column and split 'endTime' column along with endTime/endDate\n\nSELECT artistName,\n       split(endTime, ' ')[0] AS endDate,\n       split(endTime, ' ')[1] AS endTime,\n       msPlayed, \n       ROUND((msPlayed/60000),1) AS mnPlayed, \n       trackName, \n       UniqueID \nFROM df_stream_unique \nLIMIT 20;\n",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "mnPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687746058446_870252920",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 4) create final df_stream table\nspark.sql(\"\"\"SELECT artistName,\n       split(endTime, ' ')[0] AS endDate,\n       split(endTime, ' ')[1] AS endTime,\n       msPlayed,\n       ROUND((msPlayed/60000),1) AS mnPlayed,\n       trackName,\n       UniqueID\n       FROM df_stream_unique\"\"\").createOrReplaceTempView(\"df_stream_fin\")\nprint('done')\n\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687746200056_1153029632",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT *\nFROM df_stream_fin\nLIMIT 10;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "mnPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687747096336_1151896969",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT artistName,\n       trackName,\n       endDate,\n       endTime,\n       mnPlayed,\n       msPlayed,\n       UniqueID\nFROM df_stream_fin LIMIT 10;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "trackName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "mnPlayed": "string",
+                      "msPlayed": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687746602209_1150459654",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 5) create final df_stream to store as parquet type \ndf_stream = spark.sql(\"\"\"\nSELECT artistName,\n       trackName,\n       endDate,\n       endTime,\n       mnPlayed,\n       msPlayed,\n       UniqueID\nFROM df_stream_fin\n\"\"\")\n\ndf_stream.show(10)",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687747295859_92256415",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 6) store final streaming file as parquet @hdfs\ndf_stream.write.parquet('/user/portfolio/spotify/src/parquet')\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687747593819_1479100279",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nfrom pyspark.sql.types import StructType, ArrayType, StringType, StructField\n\n# 1) show myLibrary.json data type\n\nPATH2=\"/user/portfolio/spotify/src/json/YourLibrary.json\"\n\ndf2 = spark.read.option(\"multiline\",\"true\").json(PATH2) # !!!!!!!!!!\ndf2.createOrReplaceTempView(\"df_library\")\ndf2.printSchema()\n\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687747245260_232068644",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\n# 2) divide with first-level keys 'track'\n\nfrom pyspark.sql.functions import col, explode\n\ndf_tracks = df2.select(\n    explode(\"tracks\").alias(\"track\")\n).select(\n     col(\"track.album\").alias(\"album\"),\n     col(\"track.artist\").alias(\"artist\"),\n     col(\"track.track\").alias(\"track\"),\n     col(\"track.uri\").alias(\"uri\")\n)\n\ndf_tracks.createOrReplaceTempView(\"lib_tracks\")\ndf_tracks.printSchema()\n\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687750221494_1136873160",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT* FROM lib_tracks;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "album": "string",
+                      "artist": "string",
+                      "track": "string",
+                      "uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          },
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "album": "string",
+                      "artist": "string",
+                      "track": "string",
+                      "uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687752728463_1274128201",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT *, CONCAT(artist, ':', track) AS UniqueID \nFROM lib_tracks\nLIMIT 10;",
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "album": "string",
+                      "artist": "string",
+                      "track": "string",
+                      "uri": "string",
+                      "UniqueID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687754072060_776293816",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 3) Creating library table included UniqueID, track_uri\nspark.sql(\"SELECT album, artist, track, CONCAT(artist, ':', track) AS UniqueID, split(uri, ':')[2] AS track_uri FROM lib_tracks\").createOrReplaceTempView(\"df_lib_tracks\")\nprint(\"done\")",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687754070025_1695294978",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT * FROM df_lib_tracks limit 5;",
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "album": "string",
+                      "artist": "string",
+                      "track": "string",
+                      "UniqueID": "string",
+                      "track_uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687754068563_1449273146",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 4)create final df_track to store as parquet type \ndf_track = spark.sql(\"\"\"\nSELECT album, artist, track, CONCAT(artist, ':', track) AS UniqueID, split(uri, ':')[2] AS track_uri FROM lib_tracks\n\"\"\")\n\ndf_track.show(10)\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687754065942_392450073",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 5) store df_track @hdfs\ndf_track.write.parquet('/user/portfolio/spotify/src/parquet/lib')\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687755574095_814432844",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n-- 1) left join two tables (streaming and lib) to find track_uri\nSELECT artistName,endDate,endTime,msPlayed,mnPlayed,trackName,s.UniqueID,l.album,l.track_uri\nFROM df_stream_fin s\nLEFT JOIN df_lib_tracks l ON s.UniqueID = l.UniqueID ",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "artistName0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "endDate1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "endTime2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "msPlayed3",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "mnPlayed4",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "trackName5",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "UniqueID6",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "album7",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "track_uri8",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1,
+                      "paginationPageSize": 250
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "mnPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string",
+                      "album": "string",
+                      "track_uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687755995298_569481505",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\n# 2)create df_join to store as parquet type\n\ndf_join = spark.sql(\"\"\"\nSELECT artistName,endDate,endTime,msPlayed,mnPlayed,trackName,s.UniqueID,l.album,l.track_uri\nFROM df_stream_fin s\nLEFT JOIN df_lib_tracks l ON s.UniqueID = l.UniqueID \n\"\"\")\n\ndf_join.show(10)\n",
+      "config": {
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/text",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756514587_330850066",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 3) store df_join as parquet type @hdfs\ndf_join.write.parquet('/user/portfolio/spotify/src/parquet/join/')",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756660657_1059663528",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n#1) load genre file derived from spotify api\nPATH_G = \"/user/portfolio/spotify/src/genre\"\n\ndf_g = spark.read.option(\"header\", True).csv(PATH_G) \ndf_g.createOrReplaceTempView(\"df_genre\")\ndf_g.printSchema()\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687610306883_1266977724",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# 2) create genre table\nspark.sql(\"SELECT track_uri, artist_uri, genres FROM df_genre\").createOrReplaceTempView(\"df_genre\")\nprint(\"done\")",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "track_uri": "string",
+                      "artist_uri": "string",
+                      "genres": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687611235966_1528881191",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT * FROM df_genre limit 20;",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "track_uri": "string",
+                      "artist_uri": "string",
+                      "genres": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687755882472_190547731",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# prep for visualization 1) load streaming parquet file for visualization\ndfs_parquet = spark.read.parquet('/user/portfolio/spotify/src/parquet/join/*')\ndfs_parquet.cache\ndfs_parquet.count()",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756925674_1861981497",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\ndfs_parquet.printSchema()",
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687762255323_888755851",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# prep for visualization 2) make table for visaulization using sql\ndfs_parquet.createOrReplaceTempView(\"my_streaming\")\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687757110799_466151486",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT * FROM my_streaming \nWHERE track_uri is not NULL \nLIMIT 50;",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "mnPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string",
+                      "album": "string",
+                      "track_uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687757172444_543901052",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT COUNT(*) FROM my_streaming\nWHERE mnPlayed > 15",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(1)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687759489821_1562041886",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\n# prep for visualization 3) make table where listend over 2mins\n\nspark.sql(\"\"\"\nSELECT * FROM my_streaming\nWHERE mnPlayed > 2\" AND mnP\"\").createOrReplaceTempView(\"my_streaming_over2\") ;",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756924494_962126811",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT COUNT(*) FROM my_streaming_over2;\n\n-- original : 13,552\n-- actual :  11,160\n-- differ : 2,392 (random songs popped out not my style?)",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(1)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756922398_2062839009",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\n# prep for visualization 4) make table where listend less than 15mins\n\nspark.sql(\"\"\"\nSELECT * FROM my_streaming_over2\nWHERE mnPlayed <= 15\"\"\").createOrReplaceTempView(\"my_streaming_only_songs\") \nprint('done')",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687759082915_1014142120",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT COUNT(*) FROM my_streaming_only_songs;\n\n-- actual :  11,160\n-- less than 15mins : 11,061\n-- differ : 99 (maybe podcasts?)",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(1)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687759286257_1965511174",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\nSELECT * FROM my_streaming_only_songs LIMIT 10 ;",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "endDate": "string",
+                      "endTime": "string",
+                      "msPlayed": "string",
+                      "mnPlayed": "string",
+                      "trackName": "string",
+                      "UniqueID": "string",
+                      "album": "string",
+                      "track_uri": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687758884035_1625595460",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n--by artist\nSELECT artistName,\n       COUNT(artistName) count_artist,\n       ROUND(SUM(mnPlayed),1) mnPlayed_arist,\n       ROUND(SUM(msPlayed/3600000),1) hrPlayed_artist\nFROM my_streaming_only_songs\nGROUP BY artistName\nORDER BY COUNT(artistName) DESC\nLIMIT 20;\n",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 775.972,
+              "optionOpen": true,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "artistName": "string",
+                      "count_artist": "string",
+                      "mnPlayed_arist": "string",
+                      "hrPlayed_artist": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "pieChart": {},
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "stacked": true
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "artistName",
+                  "index": 0,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "hrPlayed_artist",
+                  "index": 3,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "artistName",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "count_artist",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756921771_1427914321",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n-- by track\nSELECT trackName,\n       artistName,\n       count(trackName) AS track_count,\n       ROUND(SUM(mnPlayed),1) mnPlayed_track,\n       \n       ROUND(SUM(msPlayed/3600000),1) hrPlayed_track\nFROM\n     my_streaming_only_songs\nGROUP BY trackName, artistName\nORDER BY track_count DESC\nLIMIT 20;\n",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 772.75,
+              "optionOpen": true,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "trackName": "string",
+                      "artistName": "string",
+                      "track_count": "string",
+                      "mnPlayed_track": "string",
+                      "hrPlayed_track": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "rotate",
+                  "stacked": true
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "trackName",
+                  "index": 0,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "mnPlayed_track",
+                  "index": 3,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "artistName",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "track_count",
+                  "index": 2,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756921483_1555913363",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n--morning time top list\nSELECT trackName,\n       artistName,\n       COUNT(*) as track_count,\n       ROUND(SUM(mnPlayed),1) mnPlayed_track,\n       ROUND(SUM(msPlayed/3600000),1) hrPlayed_track\n       \nFROM(\n    SELECT trackName,\n           artistName,\n           endTime,\n           mnPlayed,\n           msPlayed\n    FROM my_streaming_only_songs\n    WHERE endTime LIKE '05:%' OR \n          endTime LIKE '06:%' OR \n          endTime LIKE '07:%' OR \n          endTime LIKE '08:%' OR \n          endTime LIKE '09:%' OR \n          endTime LIKE '10:%' OR \n          endTime LIKE '11:%')\n       \n       \n",
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "trackName": "string",
+                      "artistName": "string",
+                      "endTime": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756921194_1780535094",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756919768_786175284",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756918308_1353716839",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.sql\n",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687756918040_1778958203",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n# Define the schema for the 'albums' and 'tracks' keys\nschema2 = StructType([\n    StructField(\"albums\", ArrayType(StructType([\n        StructField(\"album\", StringType(), nullable=True),\n        StructField(\"artist\", StringType(), nullable=True),\n        StructField(\"uri\", StringType(), nullable=True)\n    ])), nullable=True),\n    StructField(\"tracks\", ArrayType(StructType([\n        StructField(\"album\", StringType(), nullable=True),\n        StructField(\"artist\", StringType(), nullable=True),\n        StructField(\"track\", StringType(), nullable=True),\n        StructField(\"uri\", StringType(), nullable=True)\n    ])), nullable=True)\n])\n\n# Read the JSON file with the specified schema\ndf = spark.read.schema(schema2).json(\"path/to/my_library.json\")\n\n# Create a temporary view or table with the name 'my_library'\ndf.createOrReplaceTempView(\"my_library\")",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687748762907_807184376",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n-----------digging from below--------------------",
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687589433307_1511834785",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n#삽질\nfrom pyspark.sql import SparkSession\nfrom pyspark.sql.types import *\n\nspark = SparkSession.builder.getOrCreate()\n\nschema = StructType([\n    StructField(\"endTime\", StringType(), nullable=True),\n    StructField(\"artistName\", StringType(), nullable=True),\n    StructField(\"trackName\", StringType(), nullable=True),\n    StructField(\"msPlayed\", LongType(), nullable=True)\n])\n\ndf = spark.read.schema(schema).json(\"file:///home/portfolio/spotify/json/StreamingHistory0.json\")\ndf.show(10)",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687584403445_1122379339",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nfrom pyspark.sql import SparkSession\nfrom pyspark.sql.types import *\n\nschema = StructType([\n     StructField(\"endTime\", LongType(), True) \n    StrucField(\"artistName\", StringType(), True),\n    StructField(\"trackName\", StringType(), True),\n    StructField(\"msPlayed\", LongType(), True)\n    StructFie])\nspark = SparkSession.builder.getOrCreate()\n\ndf = spark.read.json(\"file:///home/portfolio/spotify/json/StreamingHistory0.json\",\ndf.printSchema()\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687581199806_90147152",
+      "status": "READY"
+    },
+    {
+      "text": "%python\r\nimport pandas as pd\r\nimport numpy as np\r\nimport requests\r\n\r\nSPOTIFYHOME = \"file:///home/portfolio/spotify\"\r\n\r\n\r\n# read my 1+ StreamingHistory files (depending on how)\r\ndf_stream0 = pd.read_json(f\"{SPOTIFYHOME}/json/StreamingHistory0.json\")\r\ndf_stream1 = pd.read_json(f\"{SPOTIFYHOME}/json/StreamingHistory1.json\")\r\n\r\n# merge streaming dataframes\r\ndf_stream = pd.concat([df_stream0,df_stream1])\r\n\r\n# create a 'uniqueID' for each song by combining the fields 'artistName' and 'trackName'\r\ndf_stream['UniqueID'] = df_stream['artistName']+\":\"+df_stream['trackName']\r\n\r\ndf_stream.head()",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687583308404_1804756507",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\nfrom pyspark.sql.functions import *\nfrom pyspark.sql.types import *\n\n# Define the schema for your DataFrame\nschema = StructType([\n    StructField(\"endTime\", LongType(), True),\n    StructField(\"artistName\", StringType(), True),\n    StructField(\"trackName\", StringType(), True),\n    StructField(\"msPlayed\", LongType(), True)\n    \ndf_stream0 = spark.read.schema(schema).json(\"file:///home/portfolio/spotify/json/StreamingHistory0.json\").cache()\n\ndf_stream0.printSchema()\ndf_stream0.show()\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687581612371_843284184",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\n#Define the schema for my JSON data\nschema = StructType([\n    StructField(\"endTime\", TimestampType(), True),\n    StructField(\"artistName\", StringType(), True),\n    StructField(\"trackName\", StringType(), True),\n    StructField(\"msPlayed\", IntegerType(), True)\n])\n\nSPOTIFYHOME = \"file:///home/portfolio/spotify\"\ndf = spark.read.schema(schema).json(f\"{SPOTIFYHOME}/json/StreamingHistory0.json\")\ndf.write.parquet(f\"{SPOTIFYHOME}/parquet/StreamingHistory0.parquet\")  # Save the DataFrame as a Parquet file\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687581000253_1542915517",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n\nSPOTIFYHOME = \"file:///home/portfolio/spotify\"\ndf = spark.read.parquet(f\"{SPOTIFYHOME}/parquet/StreamingHistory0.parquet\")\ndf.show(50)\n\n",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687578825094_2031081922",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\ndf.show()",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687579161207_1145752636",
+      "status": "READY"
+    },
+    {
+      "text": "%spark.pyspark\n",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "id": "paragraph_1687579286295_1537864280",
+      "status": "READY"
+    }
+  ],
+  "name": "Spotify Streaming Analysis — code-only portfolio copy",
+  "id": "2J6KYF5WE",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {
+    "privacy": "Execution outputs, runtime metadata, account identifiers, IP addresses, and raw listening records were removed from this portfolio copy."
+  },
+  "path": "/spotify_stream_pr"
+}
