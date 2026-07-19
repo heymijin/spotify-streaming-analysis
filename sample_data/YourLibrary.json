@@ -1,0 +1,244 @@
+{
+  "tracks": [
+    {
+      "artist": "North Harbor",
+      "album": "Collection 1",
+      "track": "Night Window",
+      "uri": "spotify:track:sample0000"
+    },
+    {
+      "artist": "North Harbor",
+      "album": "Collection 2",
+      "track": "Slow Signal",
+      "uri": "spotify:track:sample0001"
+    },
+    {
+      "artist": "North Harbor",
+      "album": "Collection 3",
+      "track": "Parallel Lines",
+      "uri": "spotify:track:sample0002"
+    },
+    {
+      "artist": "North Harbor",
+      "album": "Collection 1",
+      "track": "After Rain",
+      "uri": "spotify:track:sample0003"
+    },
+    {
+      "artist": "North Harbor",
+      "album": "Collection 2",
+      "track": "Borrowed Light",
+      "uri": "spotify:track:sample0004"
+    },
+    {
+      "artist": "Glass Avenue",
+      "album": "Collection 1",
+      "track": "After Rain",
+      "uri": "spotify:track:sample0005"
+    },
+    {
+      "artist": "Glass Avenue",
+      "album": "Collection 2",
+      "track": "Borrowed Light",
+      "uri": "spotify:track:sample0006"
+    },
+    {
+      "artist": "Glass Avenue",
+      "album": "Collection 3",
+      "track": "City in Blue",
+      "uri": "spotify:track:sample0007"
+    },
+    {
+      "artist": "Glass Avenue",
+      "album": "Collection 1",
+      "track": "Open Water",
+      "uri": "spotify:track:sample0008"
+    },
+    {
+      "artist": "Glass Avenue",
+      "album": "Collection 2",
+      "track": "Sunday Loop",
+      "uri": "spotify:track:sample0009"
+    },
+    {
+      "artist": "Mira Vale",
+      "album": "Collection 1",
+      "track": "Open Water",
+      "uri": "spotify:track:sample0010"
+    },
+    {
+      "artist": "Mira Vale",
+      "album": "Collection 2",
+      "track": "Sunday Loop",
+      "uri": "spotify:track:sample0011"
+    },
+    {
+      "artist": "Mira Vale",
+      "album": "Collection 3",
+      "track": "Small Hours",
+      "uri": "spotify:track:sample0012"
+    },
+    {
+      "artist": "Mira Vale",
+      "album": "Collection 1",
+      "track": "Homebound",
+      "uri": "spotify:track:sample0013"
+    },
+    {
+      "artist": "Mira Vale",
+      "album": "Collection 2",
+      "track": "Night Window",
+      "uri": "spotify:track:sample0014"
+    },
+    {
+      "artist": "Paper Satellites",
+      "album": "Collection 1",
+      "track": "Homebound",
+      "uri": "spotify:track:sample0015"
+    },
+    {
+      "artist": "Paper Satellites",
+      "album": "Collection 2",
+      "track": "Night Window",
+      "uri": "spotify:track:sample0016"
+    },
+    {
+      "artist": "Paper Satellites",
+      "album": "Collection 3",
+      "track": "Slow Signal",
+      "uri": "spotify:track:sample0017"
+    },
+    {
+      "artist": "Paper Satellites",
+      "album": "Collection 1",
+      "track": "Parallel Lines",
+      "uri": "spotify:track:sample0018"
+    },
+    {
+      "artist": "Paper Satellites",
+      "album": "Collection 2",
+      "track": "After Rain",
+      "uri": "spotify:track:sample0019"
+    },
+    {
+      "artist": "June Atlas",
+      "album": "Collection 1",
+      "track": "Parallel Lines",
+      "uri": "spotify:track:sample0020"
+    },
+    {
+      "artist": "June Atlas",
+      "album": "Collection 2",
+      "track": "After Rain",
+      "uri": "spotify:track:sample0021"
+    },
+    {
+      "artist": "June Atlas",
+      "album": "Collection 3",
+      "track": "Borrowed Light",
+      "uri": "spotify:track:sample0022"
+    },
+    {
+      "artist": "June Atlas",
+      "album": "Collection 1",
+      "track": "City in Blue",
+      "uri": "spotify:track:sample0023"
+    },
+    {
+      "artist": "June Atlas",
+      "album": "Collection 2",
+      "track": "Open Water",
+      "uri": "spotify:track:sample0024"
+    },
+    {
+      "artist": "Soft Current",
+      "album": "Collection 1",
+      "track": "City in Blue",
+      "uri": "spotify:track:sample0025"
+    },
+    {
+      "artist": "Soft Current",
+      "album": "Collection 2",
+      "track": "Open Water",
+      "uri": "spotify:track:sample0026"
+    },
+    {
+      "artist": "Soft Current",
+      "album": "Collection 3",
+      "track": "Sunday Loop",
+      "uri": "spotify:track:sample0027"
+    },
+    {
+      "artist": "Soft Current",
+      "album": "Collection 1",
+      "track": "Small Hours",
+      "uri": "spotify:track:sample0028"
+    },
+    {
+      "artist": "Soft Current",
+      "album": "Collection 2",
+      "track": "Homebound",
+      "uri": "spotify:track:sample0029"
+    },
+    {
+      "artist": "Echo District",
+      "album": "Collection 1",
+      "track": "Small Hours",
+      "uri": "spotify:track:sample0030"
+    },
+    {
+      "artist": "Echo District",
+      "album": "Collection 2",
+      "track": "Homebound",
+      "uri": "spotify:track:sample0031"
+    },
+    {
+      "artist": "Echo District",
+      "album": "Collection 3",
+      "track": "Night Window",
+      "uri": "spotify:track:sample0032"
+    },
+    {
+      "artist": "Echo District",
+      "album": "Collection 1",
+      "track": "Slow Signal",
+      "uri": "spotify:track:sample0033"
+    },
+    {
+      "artist": "Echo District",
+      "album": "Collection 2",
+      "track": "Parallel Lines",
+      "uri": "spotify:track:sample0034"
+    },
+    {
+      "artist": "Amber Static",
+      "album": "Collection 1",
+      "track": "Slow Signal",
+      "uri": "spotify:track:sample0035"
+    },
+    {
+      "artist": "Amber Static",
+      "album": "Collection 2",
+      "track": "Parallel Lines",
+      "uri": "spotify:track:sample0036"
+    },
+    {
+      "artist": "Amber Static",
+      "album": "Collection 3",
+      "track": "After Rain",
+      "uri": "spotify:track:sample0037"
+    },
+    {
+      "artist": "Amber Static",
+      "album": "Collection 1",
+      "track": "Borrowed Light",
+      "uri": "spotify:track:sample0038"
+    },
+    {
+      "artist": "Amber Static",
+      "album": "Collection 2",
+      "track": "City in Blue",
+      "uri": "spotify:track:sample0039"
+    }
+  ]
+}
