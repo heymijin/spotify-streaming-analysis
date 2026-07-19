@@ -1,0 +1,20 @@
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Personal Spotify exports
+dataset/
+my_spotify_data*
+Streaming_History_*
+StreamingHistory*.json
+Spotify Extended Streaming History/
+
+# Runtime and notebook artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.log
+.DS_Store
