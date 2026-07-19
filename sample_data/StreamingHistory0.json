@@ -1,0 +1,1502 @@
+[
+  {
+    "endTime": "2024-01-01 06:00",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 45000
+  },
+  {
+    "endTime": "2024-01-01 07:37",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 132919
+  },
+  {
+    "endTime": "2024-01-01 09:14",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 140838
+  },
+  {
+    "endTime": "2024-01-01 10:51",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 148757
+  },
+  {
+    "endTime": "2024-01-01 12:28",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 156676
+  },
+  {
+    "endTime": "2024-01-01 14:05",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 164595
+  },
+  {
+    "endTime": "2024-01-01 15:42",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 172514
+  },
+  {
+    "endTime": "2024-01-01 17:19",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 180433
+  },
+  {
+    "endTime": "2024-01-01 18:56",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 188352
+  },
+  {
+    "endTime": "2024-01-01 20:33",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 196271
+  },
+  {
+    "endTime": "2024-01-01 22:10",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 204190
+  },
+  {
+    "endTime": "2024-01-01 23:47",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 212109
+  },
+  {
+    "endTime": "2024-01-02 01:24",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 220028
+  },
+  {
+    "endTime": "2024-01-02 03:01",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 227947
+  },
+  {
+    "endTime": "2024-01-02 04:38",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 235866
+  },
+  {
+    "endTime": "2024-01-02 06:15",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 243785
+  },
+  {
+    "endTime": "2024-01-02 07:52",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 251704
+  },
+  {
+    "endTime": "2024-01-02 09:29",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 47000
+  },
+  {
+    "endTime": "2024-01-02 11:06",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 267542
+  },
+  {
+    "endTime": "2024-01-02 12:43",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 275461
+  },
+  {
+    "endTime": "2024-01-02 14:20",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 283380
+  },
+  {
+    "endTime": "2024-01-02 15:57",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 291299
+  },
+  {
+    "endTime": "2024-01-02 17:34",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 299218
+  },
+  {
+    "endTime": "2024-01-02 19:11",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 307137
+  },
+  {
+    "endTime": "2024-01-02 20:48",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 125056
+  },
+  {
+    "endTime": "2024-01-02 22:25",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 132975
+  },
+  {
+    "endTime": "2024-01-03 00:02",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 140894
+  },
+  {
+    "endTime": "2024-01-03 01:39",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 148813
+  },
+  {
+    "endTime": "2024-01-03 03:16",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 156732
+  },
+  {
+    "endTime": "2024-01-03 04:53",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 164651
+  },
+  {
+    "endTime": "2024-01-03 06:30",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 172570
+  },
+  {
+    "endTime": "2024-01-03 08:07",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 180489
+  },
+  {
+    "endTime": "2024-01-03 09:44",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 188408
+  },
+  {
+    "endTime": "2024-01-03 11:21",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 196327
+  },
+  {
+    "endTime": "2024-01-03 12:58",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 49000
+  },
+  {
+    "endTime": "2024-01-03 14:35",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 212165
+  },
+  {
+    "endTime": "2024-01-03 16:12",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 220084
+  },
+  {
+    "endTime": "2024-01-03 17:49",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 228003
+  },
+  {
+    "endTime": "2024-01-03 19:26",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 235922
+  },
+  {
+    "endTime": "2024-01-03 21:03",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 243841
+  },
+  {
+    "endTime": "2024-01-03 22:40",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 251760
+  },
+  {
+    "endTime": "2024-01-04 00:17",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 259679
+  },
+  {
+    "endTime": "2024-01-04 01:54",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 267598
+  },
+  {
+    "endTime": "2024-01-04 03:31",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 275517
+  },
+  {
+    "endTime": "2024-01-04 05:08",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 283436
+  },
+  {
+    "endTime": "2024-01-04 06:45",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 291355
+  },
+  {
+    "endTime": "2024-01-04 08:22",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 299274
+  },
+  {
+    "endTime": "2024-01-04 09:59",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 307193
+  },
+  {
+    "endTime": "2024-01-04 11:36",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 125112
+  },
+  {
+    "endTime": "2024-01-04 13:13",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 133031
+  },
+  {
+    "endTime": "2024-01-04 14:50",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 140950
+  },
+  {
+    "endTime": "2024-01-04 16:27",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 46000
+  },
+  {
+    "endTime": "2024-01-04 18:04",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 156788
+  },
+  {
+    "endTime": "2024-01-04 19:41",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 164707
+  },
+  {
+    "endTime": "2024-01-04 21:18",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 172626
+  },
+  {
+    "endTime": "2024-01-04 22:55",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 180545
+  },
+  {
+    "endTime": "2024-01-05 00:32",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 188464
+  },
+  {
+    "endTime": "2024-01-05 02:09",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 196383
+  },
+  {
+    "endTime": "2024-01-05 03:46",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 204302
+  },
+  {
+    "endTime": "2024-01-05 05:23",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 212221
+  },
+  {
+    "endTime": "2024-01-05 07:00",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 220140
+  },
+  {
+    "endTime": "2024-01-05 08:37",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 228059
+  },
+  {
+    "endTime": "2024-01-05 10:14",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 235978
+  },
+  {
+    "endTime": "2024-01-05 11:51",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 243897
+  },
+  {
+    "endTime": "2024-01-05 13:28",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 251816
+  },
+  {
+    "endTime": "2024-01-05 15:05",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 259735
+  },
+  {
+    "endTime": "2024-01-05 16:42",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 267654
+  },
+  {
+    "endTime": "2024-01-05 18:19",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 275573
+  },
+  {
+    "endTime": "2024-01-05 19:56",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 48000
+  },
+  {
+    "endTime": "2024-01-05 21:33",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 291411
+  },
+  {
+    "endTime": "2024-01-05 23:10",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 299330
+  },
+  {
+    "endTime": "2024-01-06 00:47",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 307249
+  },
+  {
+    "endTime": "2024-01-06 02:24",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 125168
+  },
+  {
+    "endTime": "2024-01-06 04:01",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 133087
+  },
+  {
+    "endTime": "2024-01-06 05:38",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 141006
+  },
+  {
+    "endTime": "2024-01-06 07:15",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 148925
+  },
+  {
+    "endTime": "2024-01-06 08:52",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 156844
+  },
+  {
+    "endTime": "2024-01-06 10:29",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 164763
+  },
+  {
+    "endTime": "2024-01-06 12:06",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 172682
+  },
+  {
+    "endTime": "2024-01-06 13:43",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 180601
+  },
+  {
+    "endTime": "2024-01-06 15:20",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 188520
+  },
+  {
+    "endTime": "2024-01-06 16:57",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 196439
+  },
+  {
+    "endTime": "2024-01-06 18:34",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 204358
+  },
+  {
+    "endTime": "2024-01-06 20:11",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 212277
+  },
+  {
+    "endTime": "2024-01-06 21:48",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 220196
+  },
+  {
+    "endTime": "2024-01-06 23:25",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 45000
+  },
+  {
+    "endTime": "2024-01-07 01:02",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 236034
+  },
+  {
+    "endTime": "2024-01-07 02:39",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 243953
+  },
+  {
+    "endTime": "2024-01-07 04:16",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 251872
+  },
+  {
+    "endTime": "2024-01-07 05:53",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 259791
+  },
+  {
+    "endTime": "2024-01-07 07:30",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 267710
+  },
+  {
+    "endTime": "2024-01-07 09:07",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 275629
+  },
+  {
+    "endTime": "2024-01-07 10:44",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 283548
+  },
+  {
+    "endTime": "2024-01-07 12:21",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 291467
+  },
+  {
+    "endTime": "2024-01-07 13:58",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 299386
+  },
+  {
+    "endTime": "2024-01-07 15:35",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 307305
+  },
+  {
+    "endTime": "2024-01-07 17:12",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 125224
+  },
+  {
+    "endTime": "2024-01-07 18:49",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 133143
+  },
+  {
+    "endTime": "2024-01-07 20:26",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 141062
+  },
+  {
+    "endTime": "2024-01-07 22:03",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 148981
+  },
+  {
+    "endTime": "2024-01-07 23:40",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 156900
+  },
+  {
+    "endTime": "2024-01-08 01:17",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 164819
+  },
+  {
+    "endTime": "2024-01-08 02:54",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 47000
+  },
+  {
+    "endTime": "2024-01-08 04:31",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 180657
+  },
+  {
+    "endTime": "2024-01-08 06:08",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 188576
+  },
+  {
+    "endTime": "2024-01-08 07:45",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 196495
+  },
+  {
+    "endTime": "2024-01-08 09:22",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 204414
+  },
+  {
+    "endTime": "2024-01-08 10:59",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 212333
+  },
+  {
+    "endTime": "2024-01-08 12:36",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 220252
+  },
+  {
+    "endTime": "2024-01-08 14:13",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 228171
+  },
+  {
+    "endTime": "2024-01-08 15:50",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 236090
+  },
+  {
+    "endTime": "2024-01-08 17:27",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 244009
+  },
+  {
+    "endTime": "2024-01-08 19:04",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 251928
+  },
+  {
+    "endTime": "2024-01-08 20:41",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 259847
+  },
+  {
+    "endTime": "2024-01-08 22:18",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 267766
+  },
+  {
+    "endTime": "2024-01-08 23:55",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 275685
+  },
+  {
+    "endTime": "2024-01-09 01:32",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 283604
+  },
+  {
+    "endTime": "2024-01-09 03:09",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 291523
+  },
+  {
+    "endTime": "2024-01-09 04:46",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 299442
+  },
+  {
+    "endTime": "2024-01-09 06:23",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 49000
+  },
+  {
+    "endTime": "2024-01-09 08:00",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 125280
+  },
+  {
+    "endTime": "2024-01-09 09:37",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 133199
+  },
+  {
+    "endTime": "2024-01-09 11:14",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 141118
+  },
+  {
+    "endTime": "2024-01-09 12:51",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 149037
+  },
+  {
+    "endTime": "2024-01-09 14:28",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 156956
+  },
+  {
+    "endTime": "2024-01-09 16:05",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 164875
+  },
+  {
+    "endTime": "2024-01-09 17:42",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 172794
+  },
+  {
+    "endTime": "2024-01-09 19:19",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 180713
+  },
+  {
+    "endTime": "2024-01-09 20:56",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 188632
+  },
+  {
+    "endTime": "2024-01-09 22:33",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 196551
+  },
+  {
+    "endTime": "2024-01-10 00:10",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 204470
+  },
+  {
+    "endTime": "2024-01-10 01:47",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 212389
+  },
+  {
+    "endTime": "2024-01-10 03:24",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 220308
+  },
+  {
+    "endTime": "2024-01-10 05:01",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 228227
+  },
+  {
+    "endTime": "2024-01-10 06:38",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 236146
+  },
+  {
+    "endTime": "2024-01-10 08:15",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 244065
+  },
+  {
+    "endTime": "2024-01-10 09:52",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 46000
+  },
+  {
+    "endTime": "2024-01-10 11:29",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 259903
+  },
+  {
+    "endTime": "2024-01-10 13:06",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 267822
+  },
+  {
+    "endTime": "2024-01-10 14:43",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 275741
+  },
+  {
+    "endTime": "2024-01-10 16:20",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 283660
+  },
+  {
+    "endTime": "2024-01-10 17:57",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 291579
+  },
+  {
+    "endTime": "2024-01-10 19:34",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 299498
+  },
+  {
+    "endTime": "2024-01-10 21:11",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 307417
+  },
+  {
+    "endTime": "2024-01-10 22:48",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 125336
+  },
+  {
+    "endTime": "2024-01-11 00:25",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 133255
+  },
+  {
+    "endTime": "2024-01-11 02:02",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 141174
+  },
+  {
+    "endTime": "2024-01-11 03:39",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 149093
+  },
+  {
+    "endTime": "2024-01-11 05:16",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 157012
+  },
+  {
+    "endTime": "2024-01-11 06:53",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 164931
+  },
+  {
+    "endTime": "2024-01-11 08:30",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 172850
+  },
+  {
+    "endTime": "2024-01-11 10:07",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 180769
+  },
+  {
+    "endTime": "2024-01-11 11:44",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 188688
+  },
+  {
+    "endTime": "2024-01-11 13:21",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 48000
+  },
+  {
+    "endTime": "2024-01-11 14:58",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 204526
+  },
+  {
+    "endTime": "2024-01-11 16:35",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 212445
+  },
+  {
+    "endTime": "2024-01-11 18:12",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 220364
+  },
+  {
+    "endTime": "2024-01-11 19:49",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 228283
+  },
+  {
+    "endTime": "2024-01-11 21:26",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 236202
+  },
+  {
+    "endTime": "2024-01-11 23:03",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 244121
+  },
+  {
+    "endTime": "2024-01-12 00:40",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 252040
+  },
+  {
+    "endTime": "2024-01-12 02:17",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 259959
+  },
+  {
+    "endTime": "2024-01-12 03:54",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 267878
+  },
+  {
+    "endTime": "2024-01-12 05:31",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 275797
+  },
+  {
+    "endTime": "2024-01-12 07:08",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 283716
+  },
+  {
+    "endTime": "2024-01-12 08:45",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 291635
+  },
+  {
+    "endTime": "2024-01-12 10:22",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 299554
+  },
+  {
+    "endTime": "2024-01-12 11:59",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 307473
+  },
+  {
+    "endTime": "2024-01-12 13:36",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 125392
+  },
+  {
+    "endTime": "2024-01-12 15:13",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 133311
+  },
+  {
+    "endTime": "2024-01-12 16:50",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 45000
+  },
+  {
+    "endTime": "2024-01-12 18:27",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 149149
+  },
+  {
+    "endTime": "2024-01-12 20:04",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 157068
+  },
+  {
+    "endTime": "2024-01-12 21:41",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 164987
+  },
+  {
+    "endTime": "2024-01-12 23:18",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 172906
+  },
+  {
+    "endTime": "2024-01-13 00:55",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 180825
+  },
+  {
+    "endTime": "2024-01-13 02:32",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 188744
+  },
+  {
+    "endTime": "2024-01-13 04:09",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 196663
+  },
+  {
+    "endTime": "2024-01-13 05:46",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 204582
+  },
+  {
+    "endTime": "2024-01-13 07:23",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 212501
+  },
+  {
+    "endTime": "2024-01-13 09:00",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 220420
+  },
+  {
+    "endTime": "2024-01-13 10:37",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 228339
+  },
+  {
+    "endTime": "2024-01-13 12:14",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 236258
+  },
+  {
+    "endTime": "2024-01-13 13:51",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 244177
+  },
+  {
+    "endTime": "2024-01-13 15:28",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 252096
+  },
+  {
+    "endTime": "2024-01-13 17:05",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 260015
+  },
+  {
+    "endTime": "2024-01-13 18:42",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 267934
+  },
+  {
+    "endTime": "2024-01-13 20:19",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 47000
+  },
+  {
+    "endTime": "2024-01-13 21:56",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 283772
+  },
+  {
+    "endTime": "2024-01-13 23:33",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 291691
+  },
+  {
+    "endTime": "2024-01-14 01:10",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 299610
+  },
+  {
+    "endTime": "2024-01-14 02:47",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 307529
+  },
+  {
+    "endTime": "2024-01-14 04:24",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 125448
+  },
+  {
+    "endTime": "2024-01-14 06:01",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 133367
+  },
+  {
+    "endTime": "2024-01-14 07:38",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 141286
+  },
+  {
+    "endTime": "2024-01-14 09:15",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 149205
+  },
+  {
+    "endTime": "2024-01-14 10:52",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 157124
+  },
+  {
+    "endTime": "2024-01-14 12:29",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 165043
+  },
+  {
+    "endTime": "2024-01-14 14:06",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 172962
+  },
+  {
+    "endTime": "2024-01-14 15:43",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 180881
+  },
+  {
+    "endTime": "2024-01-14 17:20",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 188800
+  },
+  {
+    "endTime": "2024-01-14 18:57",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 196719
+  },
+  {
+    "endTime": "2024-01-14 20:34",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 204638
+  },
+  {
+    "endTime": "2024-01-14 22:11",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 212557
+  },
+  {
+    "endTime": "2024-01-14 23:48",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 49000
+  },
+  {
+    "endTime": "2024-01-15 01:25",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 228395
+  },
+  {
+    "endTime": "2024-01-15 03:02",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 236314
+  },
+  {
+    "endTime": "2024-01-15 04:39",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 244233
+  },
+  {
+    "endTime": "2024-01-15 06:16",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 252152
+  },
+  {
+    "endTime": "2024-01-15 07:53",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 260071
+  },
+  {
+    "endTime": "2024-01-15 09:30",
+    "artistName": "Mira Vale",
+    "trackName": "Night Window",
+    "msPlayed": 267990
+  },
+  {
+    "endTime": "2024-01-15 11:07",
+    "artistName": "Paper Satellites",
+    "trackName": "After Rain",
+    "msPlayed": 275909
+  },
+  {
+    "endTime": "2024-01-15 12:44",
+    "artistName": "June Atlas",
+    "trackName": "Open Water",
+    "msPlayed": 283828
+  },
+  {
+    "endTime": "2024-01-15 14:21",
+    "artistName": "Soft Current",
+    "trackName": "Homebound",
+    "msPlayed": 291747
+  },
+  {
+    "endTime": "2024-01-15 15:58",
+    "artistName": "Echo District",
+    "trackName": "Parallel Lines",
+    "msPlayed": 299666
+  },
+  {
+    "endTime": "2024-01-15 17:35",
+    "artistName": "Amber Static",
+    "trackName": "City in Blue",
+    "msPlayed": 307585
+  },
+  {
+    "endTime": "2024-01-15 19:12",
+    "artistName": "North Harbor",
+    "trackName": "Small Hours",
+    "msPlayed": 125504
+  },
+  {
+    "endTime": "2024-01-15 20:49",
+    "artistName": "Glass Avenue",
+    "trackName": "Slow Signal",
+    "msPlayed": 133423
+  },
+  {
+    "endTime": "2024-01-15 22:26",
+    "artistName": "Mira Vale",
+    "trackName": "Borrowed Light",
+    "msPlayed": 141342
+  },
+  {
+    "endTime": "2024-01-16 00:03",
+    "artistName": "Paper Satellites",
+    "trackName": "Sunday Loop",
+    "msPlayed": 149261
+  },
+  {
+    "endTime": "2024-01-16 01:40",
+    "artistName": "June Atlas",
+    "trackName": "Night Window",
+    "msPlayed": 157180
+  },
+  {
+    "endTime": "2024-01-16 03:17",
+    "artistName": "Soft Current",
+    "trackName": "After Rain",
+    "msPlayed": 46000
+  },
+  {
+    "endTime": "2024-01-16 04:54",
+    "artistName": "Echo District",
+    "trackName": "Open Water",
+    "msPlayed": 173018
+  },
+  {
+    "endTime": "2024-01-16 06:31",
+    "artistName": "Amber Static",
+    "trackName": "Homebound",
+    "msPlayed": 180937
+  },
+  {
+    "endTime": "2024-01-16 08:08",
+    "artistName": "North Harbor",
+    "trackName": "Parallel Lines",
+    "msPlayed": 188856
+  },
+  {
+    "endTime": "2024-01-16 09:45",
+    "artistName": "Glass Avenue",
+    "trackName": "City in Blue",
+    "msPlayed": 196775
+  },
+  {
+    "endTime": "2024-01-16 11:22",
+    "artistName": "Mira Vale",
+    "trackName": "Small Hours",
+    "msPlayed": 204694
+  },
+  {
+    "endTime": "2024-01-16 12:59",
+    "artistName": "Paper Satellites",
+    "trackName": "Slow Signal",
+    "msPlayed": 212613
+  },
+  {
+    "endTime": "2024-01-16 14:36",
+    "artistName": "June Atlas",
+    "trackName": "Borrowed Light",
+    "msPlayed": 220532
+  },
+  {
+    "endTime": "2024-01-16 16:13",
+    "artistName": "Soft Current",
+    "trackName": "Sunday Loop",
+    "msPlayed": 228451
+  },
+  {
+    "endTime": "2024-01-16 17:50",
+    "artistName": "Echo District",
+    "trackName": "Night Window",
+    "msPlayed": 236370
+  },
+  {
+    "endTime": "2024-01-16 19:27",
+    "artistName": "Amber Static",
+    "trackName": "After Rain",
+    "msPlayed": 244289
+  },
+  {
+    "endTime": "2024-01-16 21:04",
+    "artistName": "North Harbor",
+    "trackName": "Open Water",
+    "msPlayed": 252208
+  },
+  {
+    "endTime": "2024-01-16 22:41",
+    "artistName": "Glass Avenue",
+    "trackName": "Homebound",
+    "msPlayed": 260127
+  },
+  {
+    "endTime": "2024-01-17 00:18",
+    "artistName": "Mira Vale",
+    "trackName": "Parallel Lines",
+    "msPlayed": 268046
+  },
+  {
+    "endTime": "2024-01-17 01:55",
+    "artistName": "Paper Satellites",
+    "trackName": "City in Blue",
+    "msPlayed": 275965
+  },
+  {
+    "endTime": "2024-01-17 03:32",
+    "artistName": "June Atlas",
+    "trackName": "Small Hours",
+    "msPlayed": 283884
+  },
+  {
+    "endTime": "2024-01-17 05:09",
+    "artistName": "Soft Current",
+    "trackName": "Slow Signal",
+    "msPlayed": 291803
+  },
+  {
+    "endTime": "2024-01-17 06:46",
+    "artistName": "Echo District",
+    "trackName": "Borrowed Light",
+    "msPlayed": 48000
+  },
+  {
+    "endTime": "2024-01-17 08:23",
+    "artistName": "Amber Static",
+    "trackName": "Sunday Loop",
+    "msPlayed": 307641
+  },
+  {
+    "endTime": "2024-01-17 10:00",
+    "artistName": "North Harbor",
+    "trackName": "Night Window",
+    "msPlayed": 125560
+  },
+  {
+    "endTime": "2024-01-17 11:37",
+    "artistName": "Glass Avenue",
+    "trackName": "After Rain",
+    "msPlayed": 133479
+  },
+  {
+    "endTime": "2024-01-17 13:14",
+    "artistName": "Mira Vale",
+    "trackName": "Open Water",
+    "msPlayed": 141398
+  },
+  {
+    "endTime": "2024-01-17 14:51",
+    "artistName": "Paper Satellites",
+    "trackName": "Homebound",
+    "msPlayed": 149317
+  },
+  {
+    "endTime": "2024-01-17 16:28",
+    "artistName": "June Atlas",
+    "trackName": "Parallel Lines",
+    "msPlayed": 157236
+  },
+  {
+    "endTime": "2024-01-17 18:05",
+    "artistName": "Soft Current",
+    "trackName": "City in Blue",
+    "msPlayed": 165155
+  },
+  {
+    "endTime": "2024-01-17 19:42",
+    "artistName": "Echo District",
+    "trackName": "Small Hours",
+    "msPlayed": 173074
+  },
+  {
+    "endTime": "2024-01-17 21:19",
+    "artistName": "Amber Static",
+    "trackName": "Slow Signal",
+    "msPlayed": 180993
+  },
+  {
+    "endTime": "2024-01-17 22:56",
+    "artistName": "North Harbor",
+    "trackName": "Borrowed Light",
+    "msPlayed": 188912
+  },
+  {
+    "endTime": "2024-01-18 00:33",
+    "artistName": "Glass Avenue",
+    "trackName": "Sunday Loop",
+    "msPlayed": 196831
+  }
+]
